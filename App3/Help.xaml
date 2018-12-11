@@ -1,0 +1,117 @@
+﻿<Page
+      x:Class="CortanaRGB.BlankPage1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CortanaRGB"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+   mc:Ignorable="d" Height="1045" Width="428"
+    
+    >
+
+
+    <ScrollViewer Margin="0,0,-54,445.333" HorizontalAlignment="Left" Width="482">
+        <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="1350" VerticalAlignment="Top" HorizontalAlignment="Left" Width="472" RenderTransformOrigin="0.698,0.498">
+            <TextBlock x:Name="textBlock" TextAlignment="Center" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Help" VerticalAlignment="Top" Height="65" Width="340" FontSize="48" Foreground="#FF0F06D8"/>
+            <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="1090" Width="340" RenderTransformOrigin="0.5,0.606" >
+                <Run Text="Cortana Commands"/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="The commands have these [ ] brackets in them. When a word is surrounded by these brackets the word is not necessary to trigger the command but can be used together with the words not surrounded by the commands witch are necessary to trigger the commands. "/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run FontWeight="Bold" FontSize="20" Text="Change the LED color:"/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run FontSize="12.6666666666667" FontFamily="Consolas" Text="[can you] [turn] [the] [ledstrip] [my] [on] [in] [color] White "/>
+                <LineBreak/>
+                <Run FontSize="12.6666666666667" FontFamily="Consolas"/>
+                <LineBreak/>
+                <Run FontSize="12.6666666666667" FontFamily="Consolas" Text="* The color White can be changed with any supported color. "/>
+                <LineBreak/>
+                <Run FontSize="12.6666666666667" FontFamily="Consolas"/>
+                <LineBreak/>
+                <Run FontWeight="Bold" FontSize="20" Text="Set the LED to fade"/>
+                <Run FontSize="20" Text="."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run FontSize="12.6666666666667" FontFamily="Consolas" Text=" "/>
+                <Span Foreground="Black" FontSize="12.6666666666667" FontFamily="Consolas">
+                    <Run Text="[can you] [turn] [set] [the] [my] [on] [in] [color] fade"/>
+                </Span>
+                <LineBreak/>
+                <Span Foreground="Black" FontSize="12.6666666666667" FontFamily="Consolas">
+                    <Run/>
+                </Span>
+                <LineBreak/>
+                <Run FontSize="12.6666666666667" FontFamily="Consolas" Text="* The fade speed will be the last speed that is entered in the application. "/>
+                <LineBreak/>
+                <Run FontSize="12.6666666666667" FontFamily="Consolas"/>
+                <LineBreak/>
+                <Run FontWeight="Bold" FontSize="20" Text="Set the LED to flash one color."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run FontSize="12.6666666666667" FontFamily="Consolas" Text=" [can you] [turn] [set] [the] [my] [ledstrip] [on] [in] [color] flash"/>
+                <LineBreak/>
+                <Span FontSize="12.6666666666667" FontFamily="Consolas">
+                    <Run/>
+                </Span>
+                <LineBreak/>
+                <Run FontSize="12.6666666666667" FontFamily="Consolas" Text="* The flashing speed will be the last speed that is entered in the application."/>
+                <LineBreak/>
+                <Run FontSize="12.6666666666667" FontFamily="Consolas"/>
+                <LineBreak/>
+                <Run FontSize="12.6666666666667" FontFamily="Consolas" Text="* The color that the the led will flash in is the color last set in the application "/>
+                <LineBreak/>
+                <Run FontSize="12.6666666666667" FontFamily="Consolas"/>
+                <LineBreak/>
+                <Run FontWeight="Bold" FontSize="20" Text="Set the LED to fade one color "/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run FontSize="12.6666666666667" FontFamily="Consolas" Text=" [can you] [turn] [set] [the] [my] [ledstrip] [on] [in] [color] one color fade"/>
+                <LineBreak/>
+                <Span FontSize="12.6666666666667" FontFamily="Consolas">
+                    <Run/>
+                </Span>
+                <LineBreak/>
+                <Run FontSize="12.6666666666667" FontFamily="Consolas" Text="* The flashing speed will be the last speed that is entered in the application."/>
+                <LineBreak/>
+                <Run FontSize="12.6666666666667" FontFamily="Consolas"/>
+                <LineBreak/>
+                <Run FontSize="12.6666666666667" FontFamily="Consolas" Text="* The color that the the led will flash in is the color last set in the application "/>
+                <LineBreak/>
+                <LineBreak/>
+                <Run FontWeight="Bold" FontSize="20" Text="Set the LED off"/>
+                <LineBreak/>
+                <Run FontWeight="Bold" FontSize="20"/>
+                <LineBreak/>"
+                <Run FontSize="12.6666666666667" FontFamily="Consolas" Text="[can you] [turn] [set] [the] [my] [ledstrip] off"/>
+                <LineBreak/>
+                <Run FontWeight="Bold" FontSize="20"/>
+                <LineBreak/>
+                <Run FontSize="12.6666666666667" FontFamily="Consolas"/>
+                <LineBreak/>
+                <Run FontSize="12.6666666666667" FontFamily="Consolas" Text=" "/>
+                <LineBreak/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <LineBreak/>
+                <Run FontSize="12.6666666666667" FontFamily="Consolas" Text=" "/>
+            </TextBlock>
+            <Button x:Name="button" Content="Back" HorizontalAlignment="Left" Margin="10,1283,0,0" VerticalAlignment="Top" Width="340" Click="button_Click"/>
+            <TextBox x:Name="PID" HorizontalAlignment="Left" Margin="10,1175,0,0" TextWrapping="Wrap" Text="PID" VerticalAlignment="Top" Width="160"/>
+            <TextBox x:Name="VID" HorizontalAlignment="Left" Margin="190,1175,0,0" TextWrapping="Wrap" Text="VID" VerticalAlignment="Top" Width="160"/>
+            <Button x:Name="ConnectButton" Content="Connect" HorizontalAlignment="Left" Margin="10,1212,0,0" VerticalAlignment="Top" Width="340" Click="Connect_Click"/>
+
+
+        </Grid>
+    </ScrollViewer>
+
+</Page>
