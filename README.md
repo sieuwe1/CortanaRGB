@@ -2,6 +2,9 @@
 
 ## CortanaRGB uses Cortana as the speech recognition software. This allows CortanaRGB to have not only a seamless intergration with your daily life but it also makes CortanaRGB very powerfull in getting your voice commands right. 
 
+# Windows Store link
+https://www.microsoft.com/nl-nl/p/corgb/9npsndqp6ms3?activetab=pivot:overviewtab
+
 # Instructions
 
 To build the hardware please follow the instructions on the instructable:
