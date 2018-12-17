@@ -15,6 +15,11 @@ https://www.instructables.com/id/Use-Cortana-and-a-Arduino-to-Control-RGB-Leds-o
 
 # schematic
 
+## pins are changed Follow this pinout:
+## g = 10; 
+## b = 9; 
+## r = 11; 
+
 If you use a LED strip
 ![alt tag](https://github.com/sieuwe1/CortanaRGB/blob/master/Pictures/Ledstrip.png)
 
